@@ -7,7 +7,7 @@ Created: January 2016
 Accompanying blog entry:
 http://externaltable.blogspot.com/2016/02/perfsheetjs-oracle-awr-data.html
 
-Example video:
+Getting started video:
 https://www.youtube.com/watch?v=kM0c8Nz15_s
 
 The reason for a tool like PerfSheet.js is to make the analysis of AWR data easier by providing a graphical interactive interface and by automating several repetitive steps of data extraction and chart preparation. Pivot charts provide a flexible and easy to use way to navigate around the many metrics and dimensions of AWR data. PerfSheet4 is a tool that I have been using for a few years for AWR data analysis (following previous original work by Tanel Poder).
