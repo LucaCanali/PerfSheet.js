@@ -13,7 +13,7 @@ Get started:
 - extract AWR data for visualization from your DBs using the scripts in sqlplus_scripts folder
 
 Accompanying blog entry:
-http://externaltable.blogspot.com/2016/02/perfsheetjs-oracle-awr-data.html
+https://db-blog.web.cern.ch/blog/luca-canali/2016-02-perfsheetjs-oracle-awr-data-visualization-browser-javascript-pivot-charts
 
 Getting started video: https://www.youtube.com/watch?v=kM0c8Nz15_s
 
@@ -28,6 +28,14 @@ The main components of PerfSheet.js are:
 - Additional customization provide pre-configured starter charts and a basic interface to load data from CSV files.
 - A set of SQL scripts to extract performance metrics of interest from Oracle AWR tables into CSV files.
 - A few example data files come with the tool, to help first-time users.
+
+Notes:  
+- Multiple DBIDs
+    - You will need to do some (simple) updates if your AWR repository has multiple DBIDs (I typically work with only 1 DB per AWR repository). 
+      If you look at the scripts you will find commented out "--ss.dbid, --uncomment if you have multiple dbid in your AWR"
+- PDBs
+    - Oracle container databases are currently not supported, it's a matter of improving the scripts and is in the TODO list.
+
 
 References and acknowledgements
 
